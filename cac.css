@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
+html{ height:100%; }
+
 body { 
 	margin:0; 
 	font-family: 'Montserrat', sans-serif;
+	min-height: 100%;
+	position:relative;
 	} 
+
+body::after{ content:''; display:block; height:70px; }
 
 /* Grid Sizing for Mobile - mobile first*/
 .container {
@@ -18,6 +24,8 @@ body {
 	color: #1A0464;
 	text-align: center;
 }
+
+
 /* unvisited link */
 a:link {
   color: #6B4ED0;
@@ -156,6 +164,11 @@ a:active {
   text-align: center;
 	grid-column: 1 / 7;
 	padding: 10px 0;
+	
+	position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:70px; 
 }
 .borderround {
 	border-radius: 10px;
