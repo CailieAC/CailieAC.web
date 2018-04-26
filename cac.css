@@ -11,7 +11,7 @@ body {
 .container {
 	display: grid; 
 	width: 100%;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
 	align-items: stretch;
 	justify-items: stretch;
 	background-color: white;
@@ -70,7 +70,7 @@ a:active {
 }
 
 .spanmid {
-	grid-column: 2 / 7;
+	grid-column: 2 / 6;
 	margin-top: 10px;
 }
 .spanall {
@@ -78,7 +78,7 @@ a:active {
 }
 .tagline {
 	grid-row: 2 / 3;
-	grid-column: 1 / 7;
+	grid-column: 2 / 6;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -88,6 +88,9 @@ a:active {
 	padding-top: 20px;
 }
 .left2, .left3, .left4, .middle2, .middle4, .right2, .right3, .right4 {
+	grid-column: 2 / 6;
+}
+.right3img {
 	grid-column: 1 / 7;
 }
 .leftsm {
@@ -97,7 +100,7 @@ a:active {
 	grid-column: 4 / 7;
 }
 .spanmid {
-	grid-column: 1 / 7;
+	grid-column: 2 / 6;
 }
 
 /* Nav */
@@ -481,10 +484,11 @@ td.newtitle {
 	grid-column: 3 / 7;
 	padding: 0 10px;
 }
-.right3 {
+.right3, .right3img {
 	grid-column: 5 / 8;
 	padding: 0 10px;
 }
+
 .right4 {
 	grid-column: 4 / 8;
 	padding: 0 10px;
