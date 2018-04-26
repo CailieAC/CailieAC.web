@@ -308,9 +308,9 @@ td.newtitle {
 #parallaxheader {
 	position: relative;
 	padding-top: 50px;
-	color: black;
+	color: #1A0464;
 	text-align: center;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0.9);
 	height: 150px;
 }
 .parallaxcode { 
@@ -442,9 +442,9 @@ td.newtitle {
 	#parallaxheader {
 		position: relative;
 		padding-top: 50px;
-		color: black;
+		color: #1A0464;
 		text-align: center;
-		background: rgba(255,255,255,0.7);
+		background: rgba(255,255,255,0.9);
 		height: 150px;
 	}
 	.parallaxcode { 
