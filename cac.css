@@ -339,7 +339,7 @@ td.newtitle {
     background-size: cover;
 }
 .parallaxplans { 
-    background-image: url("images/plans.jpg");
+    background-image: url("images/plans.JPG");
 		background-size: 150% auto !important;
     height: 150px; 
 		/* Create the parallax scrolling effect */
@@ -350,7 +350,7 @@ td.newtitle {
 }
 
 .parallaxplanstall { 
-    background-image: url("images/plans.jpg");
+    background-image: url("images/plans.JPG");
 		background-size: 150% auto !important;
     height: 250px; 
 		/* Create the parallax scrolling effect */
