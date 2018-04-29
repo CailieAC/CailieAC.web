@@ -201,6 +201,7 @@ h1, h2, h3, h4, h5 {
 }
 p {
 	font-size: 1em;
+
 }
 img {
     display: block;
@@ -211,6 +212,12 @@ img {
 em {
 	color: #8A56D3;
 	font-style: normal;   
+	font-weight: bold;
+}
+img.logo {
+    display: inline-block;
+    max-width: 250px;
+		vertical-align: middle;
 }
 
 /* Lists */
